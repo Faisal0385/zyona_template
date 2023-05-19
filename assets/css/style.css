@@ -7,6 +7,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
 
 .bg-image {
     background-image: url('https://static.wixstatic.com/media/09f97d_13580be891434018a2c431594f12b6af~mv2.png/v1/fill/w_1274,h_451,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/09f97d_13580be891434018a2c431594f12b6af~mv2.png');
@@ -42,6 +49,17 @@
     background-image: url('../image/services/image-2.png');
     background-size: cover;
     min-height: 200px;
+}
+
+.one-edge-shadow {
+    padding: 10px;
+    /* box-shadow: 0 8px 6px -6px black; */
+    box-shadow: 0px 0px 3px 2px #ccc;
+}
+
+.header-icon i {
+    font-size: 18px;
+    padding: 5px;
 }
 
 /* navber */
@@ -988,4 +1006,48 @@
     border-radius: 0%;
     border-bottom: 2px solid #FFFFFF;
     font-weight: 600;
+}
+
+.years-title-body {
+    font-size: 70px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+
+.years-beautypress-gradient-separetor {
+    display: block;
+    height: 2px;
+    width: 130px;
+    background-image: -webkit-linear-gradient(175deg, rgba(236, 85, 152, 0) 0%, rgba(236, 85, 152, 0.26) 24%, rgba(236, 85, 152, 0.5) 46%, rgb(236, 85, 152) 100%);
+}
+
+.years-title {
+    font-size: 60px;
+    margin-left: -40px;
+
+}
+
+.years-title h2 {
+    color: #f0f0f0;
+    font-size: 2.419em;
+    z-index: -1;
+    opacity: 1;
+}
+
+
+
+
+.parallax {
+    background-image: url("https://kaftechbd.com/zyona/assets/image/sliders/f963d2b6f4a949d6869164eabd786c38.webp");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_overlay_items {
+    min-height: 925px;
+    background-color: rgb(80, 151, 199, 0.3);
 }

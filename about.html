@@ -22,10 +22,11 @@
 </head>
 
 <body>
+
     <!-- navber section -->
     <div class="container-fluid">
-        <div class="row " style="background-color:#152635;">
-            <div class="col-lg-12 p-4">
+        <div class="row" style="background-color:#152635;">
+            <div class="col-lg-12 p-3">
                 <div class="line-1"></div>
                 <div class="d-flex align-items-center justify-content-between m-4">
 
@@ -47,43 +48,131 @@
     </div>
 
     <!-- Navber items -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="" src="https://kaftechbd.com/backend/assets/images/logo.png" alt="" width="100px"
-                    height="100px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder" href="./about.html">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="./our_services.html">OUR SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="./contact.html">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-normal" href="./shop.html">SHOP</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control form-control-sm me-2" type="search" placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn btn-sm btn-outline-warning" type="submit">Search</button>
-                </form>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="" src="https://kaftechbd.com/backend/assets/images/logo.png" alt="" width="100px"
+                        height="100px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bolder" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-normal" href="./about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-normal" href="./our_services.html">OUR SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-normal" href="./contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-normal" href="./shop.html">SHOP</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control form-control-sm me-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-sm btn-outline-warning" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav> -->
+
+    <section class="bg-light">
+        <div class="p-3" style="z-index: -90;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-start align-items-center">
+                        <div class="header-icon text-muted ">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end align-items-center">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <i class="fa-solid fa-phone text-muted p-1"></i> <span class="pe-2">012-345-6789</span>
+                            <i class="fa-solid fa-envelope text-muted p-1"></i> <span>example@example.com</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
+    </section>
+
+    <section class="mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="height: 80px;">
+            <div class="container">
+                <div class="navbar-nav collapse navbar-collapse d-flex justify-content-center"
+                    id="navbarSupportedContent">
+                    <li class="btn-group">
+                        <a class="nav-link fw-bolder" href="./index.html">HOME</a>
+                    </li>
+
+                    <div class="btn-group">
+                        <button class="dropdown-toggle btn btn-transparent fw-bolder" type="button"
+                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </button>
+                        <ul class="dropdown-menu border-0" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item border-bottom pb-3" href="./our_services.html">Services Version
+                                    1</a></li>
+                            <li><a class="dropdown-item border-bottom pb-3" href="#">Services Version 2</a></li>
+                            <li><a class="dropdown-item border-bottom pb-3" href="#">Services Version 3</a></li>
+                            <li><a class="dropdown-item border-bottom pb-3" href="#">Services Version 4</a></li>
+                            <li><a class="dropdown-item border-bottom pb-3" href="#">Services Version 5</a></li>
+                        </ul>
+                    </div>
+                    <li class="btn-group">
+                        <a class="nav-link fw-bolder" href="./about.html">ABOUT</a>
+                    </li>
+
+                    <div class="one-edge-shadow m-4 p-4 bg-white" style="z-index: 99999;">
+                        <img src="https://kaftechbd.com/backend/assets/images/logo.png" alt="" width="120px"
+                            height="120px">
+                    </div>
+                    <div class="btn-group">
+                        <button class="dropdown-toggle btn btn-transparent fw-bolder" type="button"
+                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Shops
+                        </button>
+                        <ul class="dropdown-menu border-0" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item border-bottom pb-3" href="./shop.html">Products</a></li>
+                            <li><a class="dropdown-item border-bottom pb-3" href="#">Portfolio</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button class="dropdown-toggle btn btn-transparent fw-bolder" type="button"
+                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            BLOG
+                        </button>
+                        <ul class="dropdown-menu border-0" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item border-bottom pb-3" href="#">Blog </a></li>
+                            <li><a class="dropdown-item border-bottom pb-3" href="#">Blog Post</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="./contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="#">TEAM</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- navber section -->
+    <br>
 
 
     <!-- About Us -->
@@ -119,7 +208,7 @@
     </div>
 
     <!-- Professional -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="row p-5">
             <div class="col-lg-4">
                 <div class="card" style="background: none;">
@@ -174,8 +263,68 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+     <!-- Why Choose Dr. A Clinic -->
+    <div class="container-fluid">
+        <div class="bg-image p-5 m-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="Choose-clinic text-center">
+                        <h1>Why Choose <span style="color: #FFDFC7;">Zyona Clinic</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card" style="background: 0; border: none;">
+                        <div class="card-body card-Clinic text-center">
+                            <div class="icon" style="color: #F0D3BD; font-size: 50px;">
+                                <i class="fa-brands fa-slack"></i>
+                            </div>
+                            <h3 style="font-weight: 400; font-size: 19px; color: #FFFFFF; margin-top: 25px;">WE PUT
+                                OUR <br> PATIENTS FIRST</h3>
+                            <h5 class="mt-4" style="font-weight: 500; font-size: 15px; color: #FFFFFF">We treat
+                                patients from all walks of life, with quality and affordable treatment options
+                                for everyone</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="background: 0; border: none;">
+                        <div class="card-body text-center">
+                            <div class="icon" style="color: #F0D3BD; font-size: 50px;">
+                                <i class="fa-solid fa-stethoscope"></i>
+                            </div>
+                            <h3 style="font-weight: 400; font-size: 19px; color: #FFFFFF; margin-top: 25px;">
+                                PROFESSIONAL<br>DOCTORS
+                            </h3>
+                            <h5 class="mt-4" style="font-weight: 500; font-size: 15px; color: #FFFFFF">Our doctors
+                                have been practicing medicine for over 10 years, with vast knowledge and experience
+                                in dermatology, ophthalmology, gynaecology, and aesthetic medicine.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="background: 0; border: none;">
+                        <div class="card-body text-center">
+                            <div class="icon" style="color: #F0D3BD; font-size: 50px;">
+                                <i class="fa-solid fa-clipboard-user"></i>
+                            </div>
+                            <h3 style="font-weight: 400; font-size: 19px; color: #FFFFFF; margin-top: 25px;">HEALTH
+                                PLANS<br>WE ACCEPT
+                            </h3>
+                            <h5 class="mt-4" style="font-weight: 500; font-size: 15px; color: #FFFFFF">Dr. A Clinic
+                                has all sort of health plans and payment methods available. Talk to our friendly
+                                consultants for more information!</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
+    <br>
+
 
     <!-- Our Gallery -->
     <div class="container-fluid">
@@ -399,7 +548,7 @@
                             info@zyona.com
                         </h6>
                     </div>
-    
+
                 </div>
             </div>
             <div class="col-lg-6">
@@ -411,7 +560,7 @@
                         </button>
                     </div>
                     <div class="facebook-icon">
-    
+
                         <a style="text-decoration: none;" href="https://www.facebook.com/zyonactg" target="_blank">
                             <i class="fa-brands fa-facebook-square" style="color: rgb(243, 243, 243);"></i>
                         </a>
@@ -427,7 +576,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container-fluid">
         <div class="row p-4" style="background-color: #152635;">
             <div class="col-lg-12">
