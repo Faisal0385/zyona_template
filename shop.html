@@ -25,9 +25,9 @@
     <!-- navber section -->
     <div class="container-fluid">
         <div class="row" style="background-color:#152635;">
-            <div class="col-lg-12 p-3">
+            <div class="col-lg-12">
                 <div class="line-1"></div>
-                <div class="d-flex align-items-center justify-content-between m-4">
+                <div class="d-flex align-items-center justify-content-between m-3">
 
                     <div class="location-address">
                         <i class="fa-solid fa-location-dot"></i>
@@ -38,6 +38,18 @@
                     <div class="call">
                         <i class="fa-solid fa-phone"></i>
                         <strong>CALL US NOW</strong> - 01307-842071
+                        <div class="header-icon d-flex justify-content-end align-items-center">
+                            <a href="https://www.facebook.com/zyonactg" target="_blank" class="nav_a"
+                                style="color: rgb(104, 104, 255);">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" target="_blank" class="nav_a" style="color: rgb(255, 104, 104);">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="" target="_blank" class="nav_a" style="color: rgb(102, 194, 159);">
+                                <i class="fa-brands fa-square-whatsapp"></i>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
@@ -46,92 +58,84 @@
         </div>
     </div>
 
-    <!-- Navber items -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img class="" src="https://kaftechbd.com/backend/assets/images/logo.png" alt="" width="100px"
-                height="100px">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link fw-bolder" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-normal" href="./about.html">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-normal" href="./our_services.html">OUR SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-normal" href="./contact.html">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fw-normal" href="./shop.html">SHOP</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control form-control-sm me-2" type="search" placeholder="Search"
-                    aria-label="Search">
-                <button class="btn btn-sm btn-outline-warning" type="submit">Search</button>
-            </form>
-        </div>
-    </div>
-</nav> -->
-
-    <section class="bg-light">
-        <div class="p-2" style="z-index: -90;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-start align-items-center">
-
-                        <i class="fa-solid fa-envelope text-muted p-1"></i> <span>info@zyona.com</span>
-
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end align-items-center">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="header-icon">
-                                <a href="https://www.facebook.com/zyonactg" target="_blank" class="nav_a"
-                                    style="color: rgb(104, 104, 255);">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-                                <a href="" target="_blank" class="nav_a" style="color: rgb(255, 104, 104);">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a>
-                                <a href="" target="_blank" class="nav_a" style="color: rgb(102, 194, 159);">
-                                    <i class="fa-brands fa-square-whatsapp"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- mobile navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mobile_navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Zyona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./our_services.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./shop.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shops
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                </form>
             </div>
         </div>
-    </section>
+    </nav>
+    <br>
 
-    <section class="mb-3">
+    <!-- desktop navabr -->
+    <section class="mb-4 mt-2 desktop_navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="height: 80px;">
             <div class="container">
                 <div class="navbar-nav collapse navbar-collapse d-flex justify-content-center"
                     id="navbarSupportedContent">
                     <li class="btn-group">
-                        <a class="nav-link fw-bolder" href="./index.html">HOME</a>
+                        <a class="nav-link fw-bold" href="./index.html">HOME</a>
                     </li>
 
                     <div class="btn-group">
-                        <button class="dropdown-toggle btn btn-transparent fw-bolder" type="button"
-                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="dropdown-toggle btn btn-transparent fw-bold" type="button"
+                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"
+                            style="color: rgba(0,0,0,.55);">
                             SERVICES
                         </button>
                         <ul class="dropdown-menu border-0" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item border-bottom pb-3" href="./our_services.html">Services Version
-                                    1</a></li>
+                            <li>
+                                <a class="dropdown-item border-bottom pb-3" href="./our_services.html">
+                                    Services Version 1
+                                </a>
+                            </li>
                             <li><a class="dropdown-item border-bottom pb-3" href="#">Services Version 2</a></li>
                             <li><a class="dropdown-item border-bottom pb-3" href="#">Services Version 3</a></li>
                             <li><a class="dropdown-item border-bottom pb-3" href="#">Services Version 4</a></li>
@@ -139,40 +143,33 @@
                         </ul>
                     </div>
                     <li class="btn-group">
-                        <a class="nav-link fw-bolder" href="./about.html">ABOUT</a>
+                        <a class="nav-link fw-bold" href="./about.html">ABOUT</a>
                     </li>
 
                     <div class="one-edge-shadow m-3 bg-white" style="z-index: 99999;">
-                        <img src="./assets/image/logo/circle logo.png" alt="" width="140px" height="140px">
+                        <img src="./assets/image/logo/circle logo.png" alt="" width="100px" height="100px">
                     </div>
                     <div class="btn-group">
-                        <button class="dropdown-toggle btn btn-transparent fw-bolder" type="button"
-                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="dropdown-toggle btn btn-transparent fw-bold" type="button"
+                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"
+                            style="color: rgba(0,0,0,.55);">
                             SHOPS
                         </button>
                         <ul class="dropdown-menu border-0" aria-labelledby="dropdownMenuButton">
                             <li><a class="dropdown-item border-bottom pb-3" href="./shop.html">Products</a></li>
                         </ul>
                     </div>
-                    <div class="btn-group">
-                        <button class="dropdown-toggle btn btn-transparent fw-bolder" type="button"
-                            id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                            BLOG
-                        </button>
-                        <ul class="dropdown-menu border-0" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item border-bottom pb-3" href="#">Blog </a></li>
-                            <li><a class="dropdown-item border-bottom pb-3" href="#">Blog Post</a></li>
-                        </ul>
-                    </div>
                     <li class="nav-item">
-                        <a class="nav-link fw-bolder" href="./contact.html">CONTACT</a>
-                    </li>                    
+                        <a class="nav-link fw-bold" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="./contact.html">CONTACT</a>
+                    </li>
                 </div>
             </div>
         </nav>
     </section>
     <!-- navber section -->
-    <br>
 
 
 
@@ -525,14 +522,14 @@
             <div class="col-lg-6">
                 <div>
                     <div>
-                        <img class="bg-white m-2" src="https://kaftechbd.com/backend/assets/images/logo.png" alt=""
-                            width="100px" height="100px">
+                        <img class="bg-white m-2" src="./assets/image/logo/circle logo.png" alt="" width="100px"
+                            height="100px">
                     </div>
                     <div>
                         <h6 class="location">
                             <i class="fa-solid fa-location-dot"></i>
-                            হাউস # ৪৯৯/৬৮৫, সিদ্দিক ভ্যালি (৪র্থ তলা ) আব্দুল্লাহ কনভেনশন হলের বিপরীতে আগ্রাবাদ এক্সেস
-                            রোড, Chittagong, Bangladesh
+                            হাউস # ৪৯৯/৬৮৫, সিদ্দিক ভ্যালি (৪র্থ তলা ) আব্দুল্লাহ কনভেনশন হলের বিপরীতে আগ্রাবাদ
+                            এক্সেস রোড, Chittagong, Bangladesh
                         </h6>
                     </div>
                     <div>
